@@ -28,12 +28,11 @@
 
 var hora = window.prompt();
 
-if ( hora > 1 && hora < 12) {
+if ( hora < 12) {
     console.log("Bom dia, já é ", hora, "horas");
-} if (hora >= 12 && hora < 19 ) {
+} else if (hora >= 12 && hora < 19 ) {
     console.log("Boa tarde, já é ", hora, "horas")
-}
-if (hora > 19) {
+} else if (hora > 19) {
     console.log("Boa noite, já é ", hora, "horas");
 
 }
