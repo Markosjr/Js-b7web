@@ -19,9 +19,18 @@
 // =============================================================
 
 
-var nome = "Marcos";
-var sobrenome = "Junior";
+// var nome = "Marcos";
+// var sobrenome = "Junior";
 
-var nomecompleto = nome+" "+sobrenome;
+// var nomecompleto = nome+" "+sobrenome;
 
-alert(nomecompleto);
+// alert(nomecompleto);
+
+var hora = window.prompt();
+
+if (hora <= 12) {
+    console.log("Bom dia, já é ", hora, "horas");
+} else  {
+    console.log("Boa tarde, já é ", hora, "horas");
+
+}
