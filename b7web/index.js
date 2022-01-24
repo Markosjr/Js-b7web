@@ -22,6 +22,6 @@
 var nome = "Marcos";
 var sobrenome = "Junior";
 
-var nomecompleto = nome + sobrenome;
+var nomecompleto = nome+" "+sobrenome;
 
 alert(nomecompleto);
